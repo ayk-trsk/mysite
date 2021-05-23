@@ -97,7 +97,8 @@ header{
   width: 920px;
   display: flex;
   flex-flow: wrap;
-  margin: 30px auto 90px auto;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
 }
 
 .production{
@@ -135,3 +136,33 @@ header{
   background-image: url(img/webcamp-mother.png);
 }
 
+.strength-group{
+  display: flex;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength{
+  width: 320px;
+  margin-right: 10px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.strength:last-child{
+  margin-right: 0;
+}
+
+.strength-title{
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 10px;
+}
+
+.strength-text{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  margin-top: 10px;
+}
