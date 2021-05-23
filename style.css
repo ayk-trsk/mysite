@@ -66,4 +66,72 @@ header{
   padding-top: 10px;
 }
 
+#Portfolio{
+  background-color: #ECEFF1;
+}
+
+.heading{
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+.heading::after{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  margin: 8px auto 0 auto;
+}
+
+.heading-text{
+  padding-top: 30px;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.production-group{
+  width: 920px;
+  display: flex;
+  flex-flow: wrap;
+  margin: 30px auto 90px auto;
+}
+
+.production{
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.production:nth-child(-n+3){
+  margin-top: 0;
+}
+
+.production:nth-child(3n){
+  margin-right: 0;
+}
+
+.bg-1{
+  background-image: url(img/sketch.jpg);
+}
+.bg-2{
+  background-image: url(img/websuku.png);
+}
+.bg-3{
+  background-image: url(img/write.jpg);
+}
+.bg-4{
+  background-image: url(img/webcamp.png);
+}
+.bg-5{
+  background-image: url(img/talk.jpg);
+}
+.bg-6{
+  background-image: url(img/webcamp-mother.png);
+}
 
