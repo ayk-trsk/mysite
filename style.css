@@ -1,40 +1,40 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-header{
-  background-color: #EC715F;
+header {
+  background-color: #ec715f;
   width: 100%;
   height: 70px;
 }
 
-.header-group{
+.header-group {
   display: flex;
   justify-content: space-between;
   font-size: 0;
 }
 
-.container{
+.container {
   width: 1024px;
   margin: 0 auto;
 }
 
-.logo{
+.logo {
   height: 70px;
 }
 
-.nav{
+.nav {
   display: flex;
 }
 
-.nav-list{
-  color: #FAFAFA;
+.nav-list {
+  color: #fafafa;
   font-size: 16px;
   padding: 0 30px;
   list-style: none;
@@ -42,58 +42,58 @@ header{
   width: 120px;
 }
 
-.nav-list a{
-  color: #FAFAFA;
+.nav-list a {
+  color: #fafafa;
 }
 
-#mv{
+#mv {
   background-image: url(img/mv.png);
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 650px;
-  color: #FAFAFA;
+  color: #fafafa;
   text-align: center;
 }
 
-.mv-title{
+.mv-title {
   font-size: 64px;
   padding-top: 200px;
 }
 
-.mv-text{
+.mv-text {
   font-size: 20px;
   padding-top: 10px;
 }
 
-#Portfolio{
-  background-color: #ECEFF1;
+#Portfolio {
+  background-color: #eceff1;
 }
 
-.heading{
+.heading {
   padding-top: 90px;
   font-size: 32px;
   color: #000000;
   text-align: center;
 }
 
-.heading::after{
+.heading::after {
   content: "";
   display: block;
   width: 70px;
   height: 3px;
-  background-color: #EC715F;
+  background-color: #ec715f;
   margin: 8px auto 0 auto;
 }
 
-.heading-text{
+.heading-text {
   padding-top: 30px;
   font-size: 16px;
   color: #000000;
   text-align: center;
 }
 
-.production-group{
+.production-group {
   width: 920px;
   display: flex;
   flex-flow: wrap;
@@ -101,7 +101,7 @@ header{
   margin: 0 auto;
 }
 
-.production{
+.production {
   width: 300px;
   height: 250px;
   background-size: cover;
@@ -109,80 +109,80 @@ header{
   margin: 10px 10px 0 0;
 }
 
-.production:nth-child(-n+3){
+.production:nth-child(-n + 3) {
   margin-top: 0;
 }
 
-.production:nth-child(3n){
+.production:nth-child(3n) {
   margin-right: 0;
 }
 
-.bg-1{
+.bg-1 {
   background-image: url(img/sketch.jpg);
 }
-.bg-2{
+.bg-2 {
   background-image: url(img/websuku.png);
 }
-.bg-3{
+.bg-3 {
   background-image: url(img/write.jpg);
 }
-.bg-4{
+.bg-4 {
   background-image: url(img/webcamp.png);
 }
-.bg-5{
+.bg-5 {
   background-image: url(img/talk.jpg);
 }
-.bg-6{
+.bg-6 {
   background-image: url(img/webcamp-mother.png);
 }
 
-.strength-group{
+.strength-group {
   width: 980px;
   display: flex;
   padding: 30px 0 90px 0;
   margin: 0 auto;
 }
 
-.strength{
+.strength {
   width: 320px;
   margin-right: 10px;
   font-size: 60px;
   text-align: center;
 }
 
-.strength:last-child{
+.strength:last-child {
   margin-right: 0;
 }
 
-.strength-title{
+.strength-title {
   font-size: 20px;
   color: #000000;
   text-align: center;
   padding: 10px 0;
 }
 
-.strength-text{
+.strength-text {
   font-size: 16px;
   color: #000000;
   text-align: left;
   margin-top: 10px;
 }
 
-#Profile{
-  background-color: #ECEFF1;
+#Profile {
+  background-color: #eceff1;
 }
 
-.profile-group{
+.profile-group {
   display: flex;
   padding: 30px 0 90px 0;
   margin: 0 auto;
 }
 
-.left-content{
+.left-content {
   width: 50%;
 }
 
-.profile-image{
+.profile-image {
   background-image: url(img/my-icon.jpg);
   width: 250px;
   height: 250px;
@@ -190,172 +190,211 @@ header{
   margin: 0 auto;
 }
 
-.right-content{
+.right-content {
   width: 50%;
 }
 
-.description-title{
+.description-title {
   font-size: 20px;
-  margin : 20px 0 5px 0;
+  margin: 20px 0 5px 0;
 }
 
-.description-title:first-child{
+.description-title:first-child {
   margin-top: 0;
 }
 
-.description-text{
+.description-text {
   font-size: 16px;
   color: #000000;
 }
 
-.contact-group{
+.contact-group {
   width: 800px;
   display: flex;
   padding: 30px 0 90px 0;
   margin: 0 auto;
 }
 
-.left-contact-content{
+.left-contact-content {
   width: 130px;
   margin: 0 auto;
 }
 
-.link-text{
+.link-text {
   text-decoration: underline;
   color: #212121;
 }
 
-.right-contact-content{
+.right-contact-content {
   width: 180px;
   margin: 0 auto;
 }
 
-.right-contact-content .fab{
+.right-contact-content .fab {
   font-size: 50px;
   margin-right: 20px;
 }
 
-.right-contact-content .fab:last-child{
+.right-contact-content .fab:last-child {
   margin-right: 0;
 }
 
-footer{
-  background-color: #EC715F;
+footer {
+  background-color: #ec715f;
   width: 100%;
   height: 60px;
   line-height: 60px;
 }
 
-.copyright{
-  color: #FAFAFA;
+.copyright {
+  color: #fafafa;
   font-size: 16px;
   text-align: center;
 }
 
-@media screen and (max-width:768px){
-header{
-  height: 50px;
-}
+@media screen and (max-width: 768px) {
+  header {
+    position: fixed;
+    height: 50px;
+  }
 
-.container{
-  width: 90%;
-}
+  .container {
+    width: 90%;
+  }
 
-.logo{
-  height: 50px;
-}
+  .logo {
+    height: 50px;
+  }
 
-.menu-box{
-  width: 40px;
-  height: 40px;
-  border: 1px solid #FAFAFA;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 5%;
-  margin-left: auto;
-}
+  .menu-box {
+    border: 1px solid #fafafa;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: auto;
+  }
 
-.list-bar{
-  display: block;
-  width: 25px;
-  height: 2px;
-  margin: 5px auto;
-  background-color: #FAFAFA;
-}
+  .menu-trigger,
+  .menu-trigger span {
+    display: inline-block;
+    transition: all 0.4s;
+    box-sizing: border-box;
+  }
+  .menu-trigger {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  .menu-trigger span {
+    position: absolute;
+    left: 7%;
+    width: 86%;
+    height: 3px;
+    background-color: #fafafa;
+    border-radius: 3px;
+  }
+  .menu-trigger span:nth-child(1) {
+    top: 5px;
+  }
+  .menu-trigger span:nth-child(2) {
+    top: 18px;
+  }
+  .menu-trigger span:nth-child(3) {
+    bottom: 5px;
+  }
+  .menu-trigger.active span:nth-child(1) {
+    -webkit-transform: translateY(13px) rotate(-45deg);
+    transform: translateY(13px) rotate(-45deg);
+    background-color: #fafafa;
+  }
+  .menu-trigger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-trigger.active span:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(45deg);
+    transform: translateY(-13px) rotate(45deg);
+    background-color: #fafafa;
+  }
 
+  .nav {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    display: none;
+    z-index: 9;
+    background: #ec715f;
+  }
 
-.list-bar:first-child{
-  margin-top: 10px;
-}
+  .nav-list {
+    text-align: center;
+    line-height: 70px;
+    width: auto;
+  }
 
-.nav-list{
-  display: none;
-}
+  #mv {
+    background-image: url(img/code.png);
+  }
 
-#mv{
-  background-image: url(img/code.png);
-}
+  .mv-title {
+    font-size: 40px;
+  }
 
-.mv-title{
-  font-size: 40px;
-}
+  .mv-text {
+    font-size: 18px;
+  }
 
-.mv-text{
-  font-size: 18px;
-}
+  .production-group {
+    width: 300px;
+  }
 
-.production-group{
-  width: 300px;
-}
+  .production {
+    margin-right: 0;
+  }
 
-.production{
-  margin-right: 0;
-}
+  .sp-none {
+    display: none;
+  }
 
-.sp-none{
-  display: none;
-}
+  .strength-group {
+    width: 320px;
+    flex-flow: row wrap;
+  }
 
-.strength-group{
-  width: 320px;
-  flex-flow: row wrap;
-}
+  .strength {
+    margin-top: 10px;
+    margin-right: 0;
+  }
 
-.strength{
-  margin-top: 10px;
-  margin-right: 0;
-}
+  .profile-group {
+    flex-flow: row wrap;
+    text-align: center;
+  }
 
-.profile-group{
-  flex-flow: row wrap;
-  text-align: center;
-}
+  .left-content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-.left-content{
-  width: 100%;
-  margin-bottom: 20px;
-}
+  .right-content {
+    width: 100%;
+  }
 
-.right-content{
-  width: 100%;
-}
+  .contact-group {
+    width: 100%;
+    flex-flow: row wrap;
+    text-align: center;
+  }
 
-.contact-group{
-  width: 100%;
-  flex-flow: row wrap;
-  text-align: center;
-}
+  .left-contact-content {
+    width: 100%;
+  }
 
-.left-contact-content{
-  width: 100%;
-}
+  .right-contact-content {
+    width: 100%;
+  }
 
-.right-contact-content{
-  width: 100%;
-}
-
-.right-contact-content .fab{
-  margin-right: 8px;
-}
-
+  .right-contact-content .fab {
+    margin-right: 8px;
+  }
 }
