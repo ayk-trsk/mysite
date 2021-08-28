@@ -252,10 +252,24 @@ footer {
   text-align: center;
 }
 
+.animation {
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: translateX(-100px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
 @media screen and (max-width: 768px) {
   header {
     position: fixed;
     height: 50px;
+    z-index: 500;
   }
 
   .container {
